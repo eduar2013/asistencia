@@ -18,7 +18,7 @@ public class UbicacionDTO {
 	private String fax;
 	
 	@Email
-	@NotNull(message="El email es obligatorio")
+	@NotNull
 	private String email;
 	
 	@Positive(message = "Debe ingresar el codigo de la ciudad")
