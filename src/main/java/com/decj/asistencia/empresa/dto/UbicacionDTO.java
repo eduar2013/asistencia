@@ -12,7 +12,7 @@ public class UbicacionDTO {
 	@NotNull(message = "La dirección es obligatoria")
 	private String direccion;
 	
-	@NotNull(message = "EL telefono es obligatorio")
+	@NotNull(message = "EL teléfono es obligatorio")
 	private String telefono;	
 	
 	private String fax;
@@ -21,7 +21,7 @@ public class UbicacionDTO {
 	@NotNull(message="El email es obligatorio")
 	private String email;
 	
-	@Positive
+	@Positive(message = "Debe ingresar el codigo de la ciudad")
 	private int codigoCiudad;
 	
 	@Positive
