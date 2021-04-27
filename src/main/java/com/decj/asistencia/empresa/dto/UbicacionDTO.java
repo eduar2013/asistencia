@@ -21,7 +21,7 @@ public class UbicacionDTO {
 	@NotNull
 	private String email;
 	
-	@Positive(message = "Debe ingresar el codigo de la ciudad")
+	@Positive
 	private int codigoCiudad;
 	
 	@Positive
